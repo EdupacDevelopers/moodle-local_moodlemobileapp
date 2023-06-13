@@ -23,9 +23,9 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['appstoredescription'] = 'NOTE: This official Moodle Mobile app will ONLY work with Moodle sites that have been set up to allow it.  Please talk to your Moodle administrator if you have any problems connecting.
+$string['appstoredescription'] = 'NOTE: This Edupac LMS app will ONLY work with Edupac LMS sites that have been set up to allow it.  Please talk to your Edupac LMS administrator if you have any problems connecting.
 
-If your Moodle site has been configured correctly, you can use this app to:
+If your Edupac LMS site has been configured correctly, you can use this app to:
 
 - browse the content of your courses, even when offline
 - receive instant notifications of messages and other events
@@ -41,7 +41,7 @@ We’d really appreciate any good reviews about the functionality so far, and yo
 The app requires the following permissions:
 Record audio - For recording audio to upload to Moodle
 Read and modify the contents of your SD card - Contents are downloaded to the SD Card so you can see them offline
-Network access - To be able to connect with your Moodle site and check if you are connected or not to switch to offline mode
+Network access - To be able to connect with your Edupac LMS site and check if you are connected or not to switch to offline mode
 Run at startup - So you receive local notifications even when the app is running in the background
 Prevent phone from sleeping - So you can receive push notifications anytime';
 $string['pluginname'] = 'Moodle App language strings';
@@ -275,7 +275,7 @@ $string['assets.mimetypes.application/vnd.google-apps.script'] = 'Google Apps Sc
 $string['assets.mimetypes.application/vnd.google-apps.site'] = 'Google Sites';
 $string['assets.mimetypes.application/vnd.google-apps.spreadsheet'] = 'Google Sheets';
 $string['assets.mimetypes.application/vnd.google-apps.video'] = 'Google Drive video';
-$string['core.ajaxendpointnotfound'] = 'AJAX endpoint not found. This can happen if the Moodle site is too old or it blocks access to this endpoint. The Moodle app only supports Moodle systems {{$a}} onwards.';
+$string['core.ajaxendpointnotfound'] = 'AJAX endpoint not found. This can happen if the Edupac LMS site is too old or it blocks access to this endpoint. The Edupac LMS app only supports Edupac LMS systems {{$a}} onwards.';
 $string['core.browser'] = 'Browser';
 $string['core.calculating'] = 'Calculating';
 $string['core.cannotconnect'] = 'Can\'t connect to site';
@@ -459,8 +459,8 @@ $string['core.login.changepasswordsupportsubject'] = 'Need help changing my pass
 $string['core.login.confirmdeletesite'] = 'Are you sure you want to remove the account on {{sitename}}?';
 $string['core.login.connect'] = 'Connect!';
 $string['core.login.connecttomoodle'] = 'Connect to Moodle';
-$string['core.login.connecttomoodleapp'] = 'You are trying to connect to a regular Moodle site. Please download the official Moodle app to access this site.';
-$string['core.login.connecttoworkplaceapp'] = 'You are trying to connect to a Moodle Workplace site. Please download the Moodle Workplace app to access this site.';
+$string['core.login.connecttomoodleapp'] = 'You are trying to connect to a regular Edupac LMS site. Please download the official Edupac LMS app to access this site.';
+$string['core.login.connecttoworkplaceapp'] = 'You are trying to connect to a Edupac LMS Workplace site. Please download the Edupac LMS Workplace app to access this site.';
 $string['core.login.credentialsdescription'] = 'Please provide your username and password to log in.';
 $string['core.login.credentialshelp'] = 'If you have problems logging in, try again later or contact your school or learning provider.';
 $string['core.login.credentialssupportsubject'] = 'Need help logging in';
@@ -478,23 +478,23 @@ $string['core.login.exceededloginattemptswithoutpassword'] = 'Need help logging 
 $string['core.login.exceededloginattemptswithoutsupport'] = 'Need help logging in? Try {{recoverPassword}}.';
 $string['core.login.exceededpasswordresetattempts'] = 'It seems you are having trouble accessing your account. You can contact your school or learning provider or try again later.';
 $string['core.login.exceededpasswordresetattemptssupportsubject'] = 'I can\'t reset my password';
-$string['core.login.faqcannotfindmysiteanswer'] = 'If you tried searching by URL address and still can\'t find your Moodle site, please get in touch with the person who takes care of Moodle in your school or learning organisation.';
+$string['core.login.faqcannotfindmysiteanswer'] = 'If you tried searching by URL address and still can\'t find your Edupac LMS site, please get in touch with the person who takes care of Edupac LMS in your school or learning organisation.';
 $string['core.login.faqcannotfindmysitequestion'] = 'I can\'t find my site by URL address.';
-$string['core.login.faqcantloginanswer'] = '<p>Once you\'ve connected to your Moodle site, you should be able to log in with your usual username and password.</p><br><p>If you forgot your username or password, select the option <strong>Forgotten your username or password?</strong>. If you still have trouble logging in or can\'t see any options for retrieving your username or password, please get in touch with the person who takes care of Moodle in your school or learning organisation.</p>';
+$string['core.login.faqcantloginanswer'] = '<p>Once you\'ve connected to your Edupac LMS site, you should be able to log in with your usual username and password.</p><br><p>If you forgot your username or password, select the option <strong>Forgotten your username or password?</strong>. If you still have trouble logging in or can\'t see any options for retrieving your username or password, please get in touch with the person who takes care of Edupac LMS in your school or learning organisation.</p>';
 $string['core.login.faqcantloginquestion'] = 'I can\'t log in.';
 $string['core.login.faqmore'] = 'Check out <a href="https://docs.moodle.org/en/Moodle_app_FAQ#toc" target="_blank">our FAQ</a> for more answers.';
-$string['core.login.faqsetupsiteanswer'] = 'Visit {{$link}} to check out the different options you have to create your own Moodle site.';
+$string['core.login.faqsetupsiteanswer'] = 'Visit {{$link}} to check out the different options you have to create your own Edupac LMS site.';
 $string['core.login.faqsetupsitelinktitle'] = 'Get started.';
-$string['core.login.faqsetupsitequestion'] = 'I want to set up my own Moodle site.';
-$string['core.login.faqtestappanswer'] = 'To test the app in a Moodle demo site, type "teacher" or "student" in the <strong>Your site</strong> field and tap <strong>Connect to your site</strong>.';
+$string['core.login.faqsetupsitequestion'] = 'I want to set up my own Edupac LMS site.';
+$string['core.login.faqtestappanswer'] = 'To test the app in a Edupac LMS demo site, type "teacher" or "student" in the <strong>Your site</strong> field and tap <strong>Connect to your site</strong>.';
 $string['core.login.faqtestappquestion'] = 'Can I test the app on a demo site?';
-$string['core.login.faqwhatisurlanswer'] = '<p>If you can\'t find your site by name, try searching by your Moodle site URL address (or web address) instead.</p><p>To find your site address:</p><ol><li>Open a web browser and go to your Moodle site login page.</li><li>At the top of the page, in the address bar, you\'ll see the URL address of your Moodle site, e.g. "campus.example.edu".<br>{{$image}}</li><li>Copy the URL (don\'t copy the /login nor what comes after), paste it into <strong>Your site</strong> in the app, then tap <strong>Connect to your site</strong></li><li>Now you can log in to your site with your username and password.</li></ol><p>If you tried searching by URL address and still can\'t find your Moodle site, please get in touch with the person who takes care of Moodle in your school or learning organisation.</p>';
+$string['core.login.faqwhatisurlanswer'] = '<p>If you can\'t find your site by name, try searching by your Edupac LMS site URL address (or web address) instead.</p><p>To find your site address:</p><ol><li>Open a web browser and go to your Edupac LMS site login page.</li><li>At the top of the page, in the address bar, you\'ll see the URL address of your Edupac LMS site, e.g. "campus.example.edu".<br>{{$image}}</li><li>Copy the URL (don\'t copy the /login nor what comes after), paste it into <strong>Your site</strong> in the app, then tap <strong>Connect to your site</strong></li><li>Now you can log in to your site with your username and password.</li></ol><p>If you tried searching by URL address and still can\'t find your Edupac LMS site, please get in touch with the person who takes care of Edupac LMS in your school or learning organisation.</p>';
 $string['core.login.faqwhatisurlquestion'] = 'How can I find my site?';
 $string['core.login.faqwhereisqrcode'] = 'Where can I find the QR code?';
 $string['core.login.faqwhereisqrcodeanswer'] = '<p>If your school or learning provider has enabled it, you will find a QR code on the web site at the bottom of your user profile page.</p>{{$image}}';
 $string['core.login.findyoursite'] = 'Find your site';
 $string['core.login.invalidaccount'] = 'Please check your login details and try again.';
-$string['core.login.invalidmoodleversion'] = 'The version of this Moodle site is too old. The Moodle App works with sites that use {{$a}} or newer.';
+$string['core.login.invalidmoodleversion'] = 'The version of this Edupac LMS site is too old. The Edupac LMS App works with sites that use {{$a}} or newer.';
 $string['core.login.invalidsite'] = 'The site URL is not valid.';
 $string['core.login.invalidtime'] = 'Time not valid';
 $string['core.login.invalidvaluemax'] = 'The maximum value is {{$a}}';
@@ -507,13 +507,13 @@ $string['core.login.notloggedin'] = 'You need to be logged in.';
 $string['core.login.onboardingcreatemanagecourses'] = 'Create & manage your courses';
 $string['core.login.onboardingenrolmanagestudents'] = 'Enrol & manage your students';
 $string['core.login.onboardinggetstarted'] = 'Get started with Moodle';
-$string['core.login.onboardingialreadyhaveasite'] = 'I already have a Moodle site';
+$string['core.login.onboardingialreadyhaveasite'] = 'I already have a Edupac LMS site';
 $string['core.login.onboardingimalearner'] = 'I\'m a learner';
 $string['core.login.onboardingimaneducator'] = 'I\'m an educator';
-$string['core.login.onboardingineedasite'] = 'I need a Moodle site';
+$string['core.login.onboardingineedasite'] = 'I need a Edupac LMS site';
 $string['core.login.onboardingprovidefeedback'] = 'Provide timely feedback';
-$string['core.login.onboardingtoconnect'] = 'To connect to the Moodle App you\'ll need a Moodle site';
-$string['core.login.onboardingwelcome'] = 'Welcome to the Moodle App!';
+$string['core.login.onboardingtoconnect'] = 'To connect to the Edupac LMS App you\'ll need a Edupac LMS site';
+$string['core.login.onboardingwelcome'] = 'Welcome to the Edupac LMS App!';
 $string['core.login.or'] = 'OR';
 $string['core.login.passwordrequired'] = 'Password required';
 $string['core.login.policyacceptmandatory'] = 'I understand and agree to the mandatory site policies';
@@ -812,8 +812,8 @@ $string['core.course.confirmdeletemodulefiles'] = 'Are you sure you want to dele
 $string['core.course.confirmdeletestoreddata'] = 'Are you sure you want to delete the stored data?';
 $string['core.course.contents'] = 'Contents';
 $string['core.confirmgotabroot'] = 'Are you sure you want to go back to {{name}}?';
-$string['core.course.activitynotyetviewablesiteupgradeneeded'] = 'Your organisation\'s Moodle installation needs to be updated.';
-$string['core.course.askadmintosupport'] = 'Contact the site administrator and tell them you want to use this activity with the Moodle Mobile app.';
+$string['core.course.activitynotyetviewablesiteupgradeneeded'] = 'Your organisation\'s Edupac LMS installation needs to be updated.';
+$string['core.course.askadmintosupport'] = 'Contact the site administrator and tell them you want to use this activity with the Edupac LMS Mobile app.';
 $string['core.confirmgotabrootdefault'] = 'Are you sure you want to go to the initial page of the current tab?';
 $string['addon.storagemanager.deletecourse'] = 'Offload all course data';
 $string['addon.storagemanager.info'] = 'Files stored on your device make the app work faster and enable the app to be used offline. You can safely offload files if you need to free up storage space.';
@@ -832,8 +832,8 @@ $string['core.login.contactyouradministrator'] = 'Contact your site administrato
 $string['core.login.contactyouradministratorissue'] = 'Please ask your site administrator to check the following issue: {{$a}}';
 $string['core.login.faqcannotconnectanswer'] = 'Please, contact your site administrator.';
 $string['core.login.faqcannotconnectquestion'] = 'I typed my site address correctly but I still can\'t connect.';
-$string['core.login.helpmelogin'] = '<p>There are many thousands of Moodle sites around the world. This app can only connect to Moodle sites that have specifically enabled Mobile app access.</p><p>If you can\'t connect to your Moodle site then you need to contact your site administrator and ask them to read <a href="http://docs.moodle.org/en/Mobile_app" target="_blank">http://docs.moodle.org/en/Mobile_app</a></p><p>To test the app in a Moodle demo site type <i>teacher</i> or <i>student</i> in the <i>Site address</i> field and click the <b>Connect button</b>.</p>';
-$string['core.whoissiteadmin'] = '"Site Administrators" are the people who manage the Moodle at your school/university/company or learning organisation. If you don\'t know how to contact them, please contact your teachers/trainers.';
+$string['core.login.helpmelogin'] = '<p>There are many thousands of Edupac LMS sites around the world. This app can only connect to Edupac LMS sites that have specifically enabled Mobile app access.</p><p>If you can\'t connect to your Edupac LMS site then you need to contact your site administrator and ask them to read <a href="http://docs.moodle.org/en/Mobile_app" target="_blank">http://docs.moodle.org/en/Mobile_app</a></p><p>To test the app in a Edupac LMS demo site type <i>teacher</i> or <i>student</i> in the <i>Site address</i> field and click the <b>Connect button</b>.</p>';
+$string['core.whoissiteadmin'] = '"Site Administrators" are the people who manage the Edupac LMS at your school/university/company or learning organisation. If you don\'t know how to contact them, please contact your teachers/trainers.';
 
 // Deprecated since v4.1.1
 $string['freemium.subscriptionplan_bma'] = 'BMA';
