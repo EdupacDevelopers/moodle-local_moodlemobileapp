@@ -39,12 +39,12 @@ Please see http://docs.moodle.org/en/Mobile_app for all the latest information.
 We’d really appreciate any good reviews about the functionality so far, and your suggestions on what else you want this app to do!
 
 The app requires the following permissions:
-Record audio - For recording audio to upload to Moodle
+Record audio - For recording audio to upload to Edupac LMS
 Read and modify the contents of your SD card - Contents are downloaded to the SD Card so you can see them offline
 Network access - To be able to connect with your Edupac LMS site and check if you are connected or not to switch to offline mode
 Run at startup - So you receive local notifications even when the app is running in the background
 Prevent phone from sleeping - So you can receive push notifications anytime';
-$string['pluginname'] = 'Moodle App language strings';
+$string['pluginname'] = 'Edupac LMS App language strings';
 $string['privacy_metadata'] = 'This plugin does not store any user data.';
 
 /* AUTO START */
@@ -458,7 +458,7 @@ $string['core.login.changepasswordreconnectinstructions'] = 'If you didn\'t chan
 $string['core.login.changepasswordsupportsubject'] = 'Need help changing my password';
 $string['core.login.confirmdeletesite'] = 'Are you sure you want to remove the account on {{sitename}}?';
 $string['core.login.connect'] = 'Connect!';
-$string['core.login.connecttomoodle'] = 'Connect to Moodle';
+$string['core.login.connecttomoodle'] = 'Connect to Edupac LMS';
 $string['core.login.connecttomoodleapp'] = 'You are trying to connect to a regular Edupac LMS site. Please download the official Edupac LMS app to access this site.';
 $string['core.login.connecttoworkplaceapp'] = 'You are trying to connect to a Edupac LMS Workplace site. Please download the Edupac LMS Workplace app to access this site.';
 $string['core.login.credentialsdescription'] = 'Please provide your username and password to log in.';
@@ -468,7 +468,7 @@ $string['core.login.emailconfirmsentnoemail'] = '<p>An email should have been se
 $string['core.login.emailnotmatch'] = 'Emails do not match';
 $string['core.login.erroraccesscontrolalloworigin'] = 'The cross-origin call you\'re trying to perform has been rejected. Please check https://moodledev.io/general/app/development/setup/app-in-browser';
 $string['core.login.errordeletesite'] = 'An error occurred while deleting this account. Please try again.';
-$string['core.login.errorexampleurl'] = 'The URL https://campus.example.edu is only an example URL, it\'s not a real site. <strong>Please use the URL of your school or organization\'s site.</strong>';
+$string['core.login.errorexampleurl'] = 'The URL https://schoolname.edupac.co.za is only an example URL, it\'s not a real site. <strong>Please use the URL of your school or organization\'s site.</strong>';
 $string['core.login.errorqrnoscheme'] = 'This URL isn\'t a valid login URL.';
 $string['core.login.errorupdatesite'] = 'An error occurred while updating the site\'s token.';
 $string['core.login.exceededloginattempts'] = 'Need help logging in? Try {{recoverPassword}} or contact your site support.';
@@ -537,7 +537,7 @@ $string['core.login.siteinmaintenance'] = 'Your site is in maintenance mode';
 $string['core.login.sitenotallowed'] = 'This site is no longer available.';
 $string['core.login.sitepolicynotagreederror'] = 'Site policy not agreed.';
 $string['core.login.siteurl'] = 'Site URL';
-$string['core.login.siteurlrequired'] = 'Site URL required i.e <i>http://www.yourmoodlesite.org</i>';
+$string['core.login.siteurlrequired'] = 'Site URL required i.e <i>https://schoolname.edupac.co.za</i>';
 $string['core.login.stillcantconnect'] = 'Still can\'t connect?';
 $string['core.login.toggleremove'] = 'Edit accounts list';
 $string['core.login.usernamerequired'] = 'Username required';
@@ -807,7 +807,7 @@ $string['core.settings.deletesitefilestitle'] = 'Delete site files';
 $string['core.login.reconnectdescription'] = 'Your session has expired. Please log in again to continue.';
 $string['core.mainmenu.changesite'] = 'Change site';
 $string['core.mainmenu.website'] = 'Website';
-$string['core.login.localmobileunexpectedresponse'] = 'Moodle Mobile Additional Features check returned an unexpected response. You will be authenticated using the standard mobile service.';
+$string['core.login.localmobileunexpectedresponse'] = 'Edupac LMS Additional Features check returned an unexpected response. You will be authenticated using the standard mobile service.';
 $string['core.course.confirmdeletemodulefiles'] = 'Are you sure you want to delete these files?';
 $string['core.course.confirmdeletestoreddata'] = 'Are you sure you want to delete the stored data?';
 $string['core.course.contents'] = 'Contents';
